@@ -1,0 +1,6 @@
+{
+ "name": "retro-username",
+ "version": "0.7.0",
+ "description": "Cozy real-pixel band in graphics terminals (kitty, Ghostty): a lamp-lit night room with your name and usage chalked on a board and Claude coding at the desk; the retro text band, usage bars and band pet everywhere else",
+ "types": "./types/index.d.ts"
+}

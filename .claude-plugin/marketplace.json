@@ -1,0 +1,42 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "NavazdeenS" },
+  "description": "Navazdeen's Claude Code mods: our own retro-username, plus community mods pinned at the commits we reviewed",
+  "plugins": [
+    {
+      "name": "retro-username",
+      "source": "./plugins/retro-username",
+      "description": "Cozy real-pixel band in graphics terminals (kitty, Ghostty): a lamp-lit night room with your name and usage chalked on a board and Claude coding at the desk; a retro text band, usage bars and band pet everywhere else"
+    },
+    {
+      "name": "hud",
+      "source": { "source": "git-subdir", "url": "https://github.com/hoobnn/hoobnn-agent-mods.git", "path": "claude-code/hud", "sha": "60ee5dde9d92aa6496a611b8611a78d736ab8ed2" },
+      "description": "Community mod by hoobnn (MIT), pinned at the reviewed commit 60ee5dd"
+    },
+    {
+      "name": "filetree",
+      "source": { "source": "github", "repo": "data-goblin/claude-code-filetree", "sha": "bf8de321fcd03a9edb893b9ef3e3cc0e4af5bee5" },
+      "description": "Community mod by data-goblin (MIT), pinned at the reviewed commit bf8de32"
+    },
+    {
+      "name": "blast-radius",
+      "source": { "source": "git-subdir", "url": "https://github.com/hamzafer/claude-code-mods.git", "path": "mods/blast-radius", "sha": "11abba8c305b0d7563e1c89254c6d5e708746b47" },
+      "description": "Community mod by hamzafer (MIT), pinned at the reviewed commit 11abba8"
+    },
+    {
+      "name": "rich-terminal",
+      "source": { "source": "github", "repo": "xiaolai/claude-rich-terminal", "sha": "d20c34ad5f2cc535400417bed2b7557f22840f3a" },
+      "description": "Community mod by xiaolai (MIT), pinned at the reviewed commit d20c34a"
+    },
+    {
+      "name": "savvy-progress",
+      "source": { "source": "git-subdir", "url": "https://github.com/JohnnyVizz/claude-kit.git", "path": "plugins/savvy-progress", "sha": "272a877f39b6971690e087b16a7cc3951b811e39" },
+      "description": "Community mod by JohnnyVizz (MIT), pinned at the reviewed commit 272a877"
+    },
+    {
+      "name": "pixelband",
+      "source": { "source": "github", "repo": "furqan-khan07/pixelband", "sha": "20e27f99b023e62c8aa91dace07654442a715c24" },
+      "description": "Community mod by furqan-khan07 (MIT), pinned at the reviewed commit 20e27f9"
+    }
+  ]
+}
